@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6351b16-f14e-4ef3-86a6-b747c928a50e" name="Changes" comment="add homework classes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/ru/netology/sender/MessageSenderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/ru/netology/sender/MessageSenderImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework/ru/netology/geo/GeoServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/ru/netology/geo/GeoServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework/ru/netology/i18n/LocalizationServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/ru/netology/i18n/LocalizationServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework/ru/netology/sender/MessageSenderImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/ru/netology/sender/MessageSenderImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lecture/AdviceServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lecture/AdviceServiceTest.java" afterDir="false" />
+    <list default="true" id="e6351b16-f14e-4ef3-86a6-b747c928a50e" name="Changes" comment="homework completed">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680679251578</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="homework completed">
+      <created>1680764461904</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680764461904</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,7 +189,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add homework" />
     <MESSAGE value="add homework classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add homework classes" />
+    <MESSAGE value="homework completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework completed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
