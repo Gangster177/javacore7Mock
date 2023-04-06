@@ -4,24 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6351b16-f14e-4ef3-86a6-b747c928a50e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lecture/AdviceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lecture/PreferencesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lecture/WeatherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework/ru/netology/geo/GeoServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework/ru/netology/i18n/LocalizationServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework/ru/netology/sender/MessageSenderImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/AdviceServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/PreferencesServiceMock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/WeatherServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lecture/WeatherServiceMock.java" afterDir="false" />
+    <list default="true" id="e6351b16-f14e-4ef3-86a6-b747c928a50e" name="Changes" comment="add homework classes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/ru/netology/sender/MessageSenderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/ru/netology/sender/MessageSenderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework/ru/netology/geo/GeoServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/ru/netology/geo/GeoServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework/ru/netology/i18n/LocalizationServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/ru/netology/i18n/LocalizationServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework/ru/netology/sender/MessageSenderImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/ru/netology/sender/MessageSenderImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lecture/AdviceServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lecture/AdviceServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,80 +44,96 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.capture&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="lecture" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AdviceServiceTest">
-    <configuration name="AdviceServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GeoServiceImplTest.byCoordinatesTest">
+    <configuration name="GeoServiceImplTest.byCoordinatesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javacore7Mock" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture.*" />
+          <option name="PATTERN" value="homework.ru.netology.geo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lecture" />
-      <option name="MAIN_CLASS_NAME" value="lecture.AdviceServiceTest" />
+      <option name="PACKAGE_NAME" value="homework.ru.netology.geo" />
+      <option name="MAIN_CLASS_NAME" value="homework.ru.netology.geo.GeoServiceImplTest" />
+      <option name="METHOD_NAME" value="byCoordinatesTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageSenderImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javacore7Mock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.ru.netology.sender.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework.ru.netology.sender" />
+      <option name="MAIN_CLASS_NAME" value="homework.ru.netology.sender.MessageSenderImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdviceServiceTest.test_get_advice_in_bad_weather" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MessageSenderImplTest.sendEngTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javacore7Mock" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture.*" />
+          <option name="PATTERN" value="homework.ru.netology.sender.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lecture" />
-      <option name="MAIN_CLASS_NAME" value="lecture.AdviceServiceTest" />
-      <option name="METHOD_NAME" value="test_get_advice_in_bad_weather" />
+      <option name="PACKAGE_NAME" value="homework.ru.netology.sender" />
+      <option name="MAIN_CLASS_NAME" value="homework.ru.netology.sender.MessageSenderImplTest" />
+      <option name="METHOD_NAME" value="sendEngTest(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdviceServiceTest.test_get_advice_in_bad_weather_by_verify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MessageSenderImplTest.sendEngTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javacore7Mock" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture.*" />
+          <option name="PATTERN" value="homework.ru.netology.sender.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lecture" />
-      <option name="MAIN_CLASS_NAME" value="lecture.AdviceServiceTest" />
-      <option name="METHOD_NAME" value="test_get_advice_in_bad_weather_by_verify" />
+      <option name="PACKAGE_NAME" value="homework.ru.netology.sender" />
+      <option name="MAIN_CLASS_NAME" value="homework.ru.netology.sender.MessageSenderImplTest" />
+      <option name="METHOD_NAME" value="sendEngTest(java.lang.String,homework.ru.netology.entity.Location)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdviceServiceTest.test_spy_weather_service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MessageSenderImplTest.sendEngTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javacore7Mock" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture.*" />
+          <option name="PATTERN" value="homework.ru.netology.sender.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lecture" />
-      <option name="MAIN_CLASS_NAME" value="lecture.AdviceServiceTest" />
-      <option name="METHOD_NAME" value="test_spy_weather_service" />
+      <option name="PACKAGE_NAME" value="homework.ru.netology.sender" />
+      <option name="MAIN_CLASS_NAME" value="homework.ru.netology.sender.MessageSenderImplTest" />
+      <option name="METHOD_NAME" value="sendEngTest(java.lang.String,homework.ru.netology.entity.Country)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,10 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AdviceServiceTest" />
-        <item itemvalue="JUnit.AdviceServiceTest.test_get_advice_in_bad_weather_by_verify" />
-        <item itemvalue="JUnit.AdviceServiceTest.test_spy_weather_service" />
-        <item itemvalue="JUnit.AdviceServiceTest.test_get_advice_in_bad_weather" />
+        <item itemvalue="JUnit.GeoServiceImplTest.byCoordinatesTest" />
+        <item itemvalue="JUnit.MessageSenderImplTest" />
+        <item itemvalue="JUnit.MessageSenderImplTest.sendEngTest (1)" />
+        <item itemvalue="JUnit.MessageSenderImplTest.sendEngTest (3)" />
+        <item itemvalue="JUnit.MessageSenderImplTest.sendEngTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +158,21 @@
       <option name="presentableId" value="Default" />
       <updated>1680603959062</updated>
     </task>
+    <task id="LOCAL-00001" summary="add homework">
+      <created>1680679211255</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680679211255</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add homework classes">
+      <created>1680679251578</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680679251578</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,5 +185,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add homework" />
+    <MESSAGE value="add homework classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add homework classes" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
